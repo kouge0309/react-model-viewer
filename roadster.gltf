@@ -1,0 +1,167 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.2.40",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0,
+                1,
+                2,
+                3
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "name" : "\u30a8\u30f3\u30d7\u30c6\u30a3",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071067094802856
+            ],
+            "translation" : [
+                0.3919396996498108,
+                -0.947186291217804,
+                13.701727867126465
+            ]
+        },
+        {
+            "name" : "\u30a8\u30f3\u30d7\u30c6\u30a3.001",
+            "rotation" : [
+                0.5000000596046448,
+                0.5,
+                -0.5,
+                0.5
+            ],
+            "translation" : [
+                11.540319442749023,
+                -0.947186291217804,
+                0
+            ]
+        },
+        {
+            "name" : "\u30a8\u30f3\u30d7\u30c6\u30a3.002",
+            "rotation" : [
+                -0.7071068286895752,
+                0,
+                0.7071068286895752,
+                1.306566446146462e-07
+            ],
+            "translation" : [
+                5.495152950286865,
+                10.4934720993042,
+                0
+            ]
+        },
+        {
+            "mesh" : 0,
+            "name" : "\u5e73\u9762",
+            "translation" : [
+                0,
+                -0.5319002866744995,
+                2.110661268234253
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "carMat",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.800000011920929,
+                    0.800000011920929,
+                    0.800000011920929,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "\u5e73\u9762.001",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 35318,
+            "max" : [
+                1.4482876062393188,
+                -0.008135218173265457,
+                1.268570065498352
+            ],
+            "min" : [
+                -1.4482874870300293,
+                -1.154433012008667,
+                -1.4129470586776733
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 35318,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 35318,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 210144,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 423816,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 423816,
+            "byteOffset" : 423816
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 282544,
+            "byteOffset" : 847632
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 420288,
+            "byteOffset" : 1130176
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 1550464,
+            "uri" : "roadster.bin"
+        }
+    ]
+}
